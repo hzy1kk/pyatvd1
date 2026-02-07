@@ -1,1 +1,10 @@
-import random def gerar_numeros(): numeros = random.sample(range(1, 61), 6) print("Números sorteados da MegaSena:", sorted(numeros)) if __name__ == "__main__": gerar_numeros()
+import random
+
+
+def gerar_numeros():
+    numeros = random.sample(range(1, 61), 6)
+    print("Números sorteados da MegaSena:", sorted(numeros))
+
+
+if __name__ == "__main__":
+    gerar_numeros()
